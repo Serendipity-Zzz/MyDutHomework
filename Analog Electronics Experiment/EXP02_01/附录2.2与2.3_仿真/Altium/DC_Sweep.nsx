@@ -1,0 +1,19 @@
+1N4735A laboratory DC sweep
+* Altium Designer Winter 09 Mixed Sim
+* Uin is the measured potentiometer wiper voltage relative to ground.
+* Sweep its ideal equivalent source to compare the same Uin values.
+VSWEEP Uin 0 DC 0
+R1 Uin Ud 1k
+D1 Ud 0 1N4735
+.SAVE Uin Ud @R1[i] VSWEEP#branch
+*PLOT DC -1 1 A=Ud A=@R1[i]
+.DC VSWEEP -20 20 0.01
+.OPTIONS RELTOL=1e-6 ABSTOL=1e-12 VNTOL=1e-9 TEMP=27
+*1N4735
+*Ref: Motorola
+*6.2V 1W Si Zener pkg:DIODE0.4 1,2
+.MODEL 1N4735 D(IS=7.57E-16 RS=0.968 TT=5.01E-8 CJO=1.41E-10 VJ=0.75 
++ M=0.33 BV=6.163 IBV=0.041 )
+* Origin: Mcediode.lib
+
+.END

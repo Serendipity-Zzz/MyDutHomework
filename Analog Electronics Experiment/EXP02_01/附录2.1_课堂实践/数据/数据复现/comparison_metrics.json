@@ -1,0 +1,34 @@
+{
+  "solver": "Altium Designer Winter 09 Mixed Sim",
+  "source_sdf_sha256": "a59612b3dca58ef4dd83d0bcfce104a670a8cf3a24743d666e4b679150a0def1",
+  "model": "Motorola 1N4735 bundled model",
+  "temperature_c": 27,
+  "resistance_ohm": 1000,
+  "saved_ud_points": 2218,
+  "saved_current_points": 337,
+  "measured_points": 51,
+  "current_method": "Saved Altium R1 current, A converted to mA",
+  "iv_voltage_method": "Ud linearly interpolated at the saved R1 current sweep coordinates",
+  "maximum_independent_kvl_residual_ma": 0.0017387580689964821,
+  "mean_absolute_voltage_difference_v": 0.03462746433072553,
+  "mean_absolute_current_difference_ma": 0.03403181520241146,
+  "measured_current_voltage_relation_max_abs_ma": 0.0,
+  "maximum_relative_current_error_for_measured_abs_ge_0_1ma_pct": 92.33063701985105,
+  "largest_relative_error_case": [
+    "反向",
+    -5.97,
+    -5.79,
+    -0.17999999999999972,
+    -5.956195485326776,
+    -0.013804853364268075,
+    -0.1661954853267762,
+    0.16619514663573165,
+    92.33063701985105
+  ],
+  "independent_equation_check": {
+    "method": "SPICE diode DC equations with the supplied model constants, 27 C and 1 kohm",
+    "maximum_voltage_difference_v": 2.279010613670529e-05,
+    "maximum_current_difference_ma": 2.224277175688627e-05,
+    "model_sha256": "55a05607975b82ad05083b7fe5f81350da021628236484f2fceca5c209a072b0"
+  }
+}

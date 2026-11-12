@@ -1,0 +1,16 @@
+{
+  "model_identical_to_installed_library": true,
+  "library": "Altium Designer Winter 09 / Motorola Discrete Diode.IntLib",
+  "model_stream": "MDL/7.mdl",
+  "model_sha256": "55a05607975b82ad05083b7fe5f81350da021628236484f2fceca5c209a072b0",
+  "source_sdf_sha256": "a59612b3dca58ef4dd83d0bcfce104a670a8cf3a24743d666e4b679150a0def1",
+  "measured_sha256": "712fda4b9fae6faa9780530bf41a8c780f07401d926c681d81fba483bbde3b7a",
+  "source_sdf_reused_from_original_run": true,
+  "new_version_scope": "Original-current extraction, independent checks, comparison charts and workbook",
+  "independent_equation_check": {
+    "method": "SPICE diode DC equations with the supplied model constants, 27 C and 1 kohm",
+    "maximum_voltage_difference_v": 2.279010613670529e-05,
+    "maximum_current_difference_ma": 2.224277175688627e-05,
+    "model_sha256": "55a05607975b82ad05083b7fe5f81350da021628236484f2fceca5c209a072b0"
+  }
+}

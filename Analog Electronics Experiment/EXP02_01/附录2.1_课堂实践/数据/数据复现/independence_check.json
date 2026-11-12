@@ -1,0 +1,11 @@
+{
+  "test": "Modify measured voltage and current in a disposable copy, rerun the normal Python entry point from a different working directory",
+  "result": "Simulation CSV, both raw-wave CSV files and native IV SDF are byte-identical",
+  "simulation_sha256": {
+    "数据复现/simulation.csv": "f6a3af446ed5763e766f3ea28e9f4f039002dd983e505986e81c58508d5ce6ed",
+    "数据复现/raw_ud.csv": "3e5f4a4147a9d564bf28271e104173c1cda0f9e5cbeb6ea42644a5f07f662865",
+    "数据复现/raw_current.csv": "bf94915bda7fe10041c81097f41ed229f94dba14fc3c8c834b8b26cec33988dc",
+    "Altium/Zener_IV.sdf": "8e1d137908addcd027e6dd8362bea4a314ae72569a6f70bc382c8aaf793626ef"
+  },
+  "passed": true
+}

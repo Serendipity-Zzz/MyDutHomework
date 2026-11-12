@@ -1,0 +1,31 @@
+[Design]
+Version=1.0
+HierarchyMode=0
+OutputPath=Simulation
+OpenOutputs=1
+SeparateFolders=0
+AllowPortNetNames=0
+AllowSheetEntryNetNames=1
+
+[Document1]
+DocumentPath=EXP02_01_RGXXXX_STUDENT_ID.SchDoc
+AnnotationEnabled=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+
+[Document2]
+DocumentPath=1N4735.mdl
+AnnotationEnabled=0
+
+[SearchPath1]
+Path=*.*
+IncludeSubFolders=1
+
+[OutputGroup1]
+Name=Simulator Outputs
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputEnabled1=1
+OutputDefault1=1
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=AdvSimNetlistView|SheetsToNetlist=0|NetlistType=1|Variable0=Ud|Variable1=Uin|AnalysesDataSavedIndex=0|SimView_KeepLastSetup=True|Op_Analysis=True|DC_Analysis=False|AC_Analysis=False|TRAN_Analysis=False|OPTION_SpiceRefNode=GND
